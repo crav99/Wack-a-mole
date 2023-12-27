@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+
+.grid {
+  display: grid;
+  width: 768px;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 0 auto;
+}
+
+h1 {
+  text-align: center;
+}
